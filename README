@@ -1,0 +1,25 @@
+Simple client and server applications to send a file over home LAN network. 
+
+Server is run from the directory where files are stored. Thats all that is required from the server side
+
+The client application is run from the directory where download has to be stored. 
+
+The client is run as 
+
+python3 client.py ip_address
+
+This will list all the files vailable with the server along with a serial number for the file.
+
+Next the client is run as 
+
+python3 client.py ip_address file_number
+
+The download begins and the file is saved in the clients current directory
+
+TODO
+I can add the ability of the server to share filesize along with the list of files.
+This can be further used to show dwnload progress to the client.
+
+
+
+
